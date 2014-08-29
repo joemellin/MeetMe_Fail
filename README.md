@@ -9,10 +9,3 @@ Decided to give [Rail Apps OmniAuth Tutorial](https://tutorials.railsapps.org/tu
 Also, apparently you can just use [Rails Composer]:(https://github.com/RailsApps/rails-composer) and just have it all set up for you :)
 
 Here is the [example app]:http://meetmefail.herokuapp.com/ .
-
-
-[pvc]: http://docs.rubygems.org/read/chapter/16#page74
-
-[![Gem Version](http://img.shields.io/gem/v/omniauth.svg)]
-
-[Visit GitHub!](www.github.com)
