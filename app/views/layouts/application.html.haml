@@ -1,0 +1,21 @@
+!!!
+%html
+	%head
+	%title Portfolio
+	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+	= csrf_meta_tags
+	= nav_bar :fixed => :top, :responsive => true do
+		= menu_group do
+			= menu_item "JOE", root_path
+
+		= menu_group :pull => :right do
+			- if current_user
+				= menu_item "Log Out", destroy_user_session_path, :method => :delete
+			- else
+				= menu_item "Log In", new_user_session_path
+
+	%body
+	%p.notice= notice
+	%p.alert= alert
+	= yield

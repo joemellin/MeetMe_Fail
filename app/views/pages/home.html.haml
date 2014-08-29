@@ -1,0 +1,6 @@
+.col-xs-6.col-xs-offset-3.center
+	%h1 boom
+	-if user_signed_in?
+		= current_user.name
+		= current_user.avatar.url
+		= current_user.email
