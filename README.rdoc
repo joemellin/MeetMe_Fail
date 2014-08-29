@@ -11,3 +11,4 @@ Also, apparently you can just use [Rails Composer]:(https://github.com/RailsApps
 Here is the [example app]:http://meetmefail.herokuapp.com/ .
 
 
+[pvc]: http://docs.rubygems.org/read/chapter/16#page74
