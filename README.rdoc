@@ -1,5 +1,14 @@
 == README
 
+Hi All!
+
+This repo is in progress and I will be updating this How to Doc.
+
+My goal is to help anyone be able to get this same site up on their own server / customize it them selves.
+
+If you have any questions, please message me / follow & star this repo :)
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
