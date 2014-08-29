@@ -12,8 +12,7 @@ gem 'devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem "paperclip", "~> 4.1"
-
-
+gem 'figaro'
 
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

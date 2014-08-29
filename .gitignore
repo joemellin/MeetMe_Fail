@@ -30,3 +30,5 @@ config/s3.yml
 .rvmrc
 .ruby-version
 .ruby-gemset
+# Ignore application configuration
+/config/application.yml
